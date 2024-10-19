@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       {/* Header */}
-      <header className="absolute w-full h-32 bg-[#023A15]">
+      <header class="header" className="absolute w-full h-32 bg-[#023A15]">
         <div className="flex justify-between items-center h-full px-8">
           <div className="logo">
             {/* Insert your logo here */}
@@ -27,7 +27,7 @@ export default function Home() {
       </header>
 
       {/* Home Hero Section */}
-      <section className="relative h-screen bg-[#023A15]">
+      <section class="hero" className="relative h-screen bg-[#023A15]">
         <div className="absolute w-full h-full">
           {/* Hero Heading */}
           <div className="absolute left-[200px] top-[249px]">
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Special Service Section */}
-      <section className="relative flex flex-col items-center p-6 bg-gray-50">
+      <section class="services" className="relative flex flex-col items-center p-6 bg-gray-50">
         <h1 className="text-4xl font-bold text-center mb-4">Special Service from Chloro</h1>
         <p className="text-center mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis sed sapien in pretium. Donec tincidunt, quam.</p>
 
@@ -234,7 +234,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="absolute bottom-0 left-0 w-full h-[590px] bg-[#023A15] flex flex-col">
+      <footer class="footer" className="absolute bottom-0 left-0 w-full h-[590px] bg-[#023A15] flex flex-col">
         <div className="flex justify-between px-8 pt-10">
           {/* Column 1 */}
           <div className="flex flex-col">
