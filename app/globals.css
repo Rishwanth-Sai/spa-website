@@ -36,3 +36,70 @@ button {
     margin: 0 auto; /* Centers the container */
     padding: 0 20px; /* Adds padding on sides */
 }
+/* Header */
+.header {
+    background-color: #023A15; /* Example background color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center the text */
+    color: white; /* White text */
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px; /* Top and bottom padding */
+    background-image: url('image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Service Section */
+.services {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.services .service {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Each service takes up 30% of the width */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Light shadow effect */
+}
+
+.services .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #023A15;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #319E48;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
